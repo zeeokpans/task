@@ -1,0 +1,151 @@
+html,body,.container{
+    padding: 0;
+    margin: 0;
+}
+.nav__bar{
+    height:100px;
+    width: 100%;
+    background-color: rgb(200, 207, 207);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    
+}
+.logo{
+    height: 50px;
+    width: 200px;
+    padding-top: 25px;
+    margin-left: 30px;
+}
+.header__item{
+    display:inline;
+    float: right;
+    margin-right: 80px;
+    padding-top: 35px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.team{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 25px;
+    color: rgb(247, 57, 89);
+}
+.main{
+    margin-top: 80px;
+    height: 800px;
+}
+.position{
+    position: absolute;
+    z-index: 0;
+}
+.big__circle{
+    height: 200px;
+    width: 200px;
+    
+}
+.big1__circle{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.big2__circle{
+    margin-left: 550px;
+    margin-top: -10px;
+}
+.big3__circle{
+    margin-left: 800px;
+    margin-top: -40px;
+}
+.big4__circle{
+    margin-left: 100px;
+    margin-top: 170px;
+}
+.big5__circle{
+    margin-left: 320px;
+    margin-top: 250px;
+}
+.big6__circle{
+    margin-left: 590px;
+    margin-top: 200px;
+}
+.big7__circle{
+    margin-left: 860px;
+    margin-top: 200px;
+}
+.big8__circle{
+    margin-left: 720px;
+    margin-top: 400px;
+}
+.big9__circle{
+    margin-left: 1030px;
+    margin-top: 350px;
+}
+.big10__circle{
+    margin-left: 280px;
+    margin-top: 500px;
+}
+.big11__circle{
+    margin-left: 500px;
+    margin-top: 500px;
+}
+.small__circle{
+    height: 100px;
+    width: 100px;
+}
+.small1__circle{
+   margin-left: 490px;
+   margin-top:200px ;
+}
+.small2__circle{
+    margin-left: 780px;
+    margin-top: 150px;
+}
+.small3__circle{
+    margin-left: 1020px;
+    margin-top: 130px;
+}
+.small4__circle{
+    margin-left:200px ;
+    margin-top: 400px;
+}
+.small5__circle{
+    margin-left: 500px;
+    margin-top: 400px;
+}
+.small6__circle{
+    margin-left: 750px;
+    margin-top: 620px;
+}
+.small7__circle{
+    margin-left: 950px;
+    margin-top: 600px;
+}
+.big__circle,.small__circle{
+    background-color: rgb(53, 7, 7);
+    border-radius: 50%;
+}
+.footer{
+    height: 250px;
+    background-color: rgb(12, 12, 44);
+    color: white;
+}
+.item{
+    margin: 40px 60px;
+}
+.footer__item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.icon__container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.footer p{
+    text-align: center;
+}
